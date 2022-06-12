@@ -1,0 +1,96 @@
+body {
+    background-image: url("https://www.peekstreeservice.com/images/84/cut-wood-56275.jpg?");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header,
+nav,
+.about,
+.carousel,
+.motto-container,
+.picture,
+.links {
+    width: 960px;
+}
+
+.nav-link {
+    display: block;
+    color: black;
+    background-color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 14.4px;
+    padding: 0;
+    line-height: 16px;
+}
+
+.nav-link:hover:not(.active) {
+    color: white;
+    background-color: black;
+}
+
+.active {
+    color: white;
+    background-color: black;
+}
+
+.about {
+    background-color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.about-title {
+    font-family: 'Play', sans-serif;
+    color: rgb(94, 94, 94);
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+}
+
+.about-blurb {
+    font-family: helvetica;
+    color: grey;
+}
+
+.carousel-caption {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 3px black;
+    text-align: left;
+}
+
+.motto-container {
+    background-color: white;
+    padding: 40px;
+}
+
+.motto {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 15px;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+.picture {
+    padding: 20px 70px;
+    background-color: white;
+}
+
+.links {
+    background-color: white;
+    font-family: Oswald, sans-serif;
+}
